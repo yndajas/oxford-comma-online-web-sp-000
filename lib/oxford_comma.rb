@@ -1,6 +1,7 @@
 require 'pry'
 
 def oxford_comma(array)
+  converted_string = ""
   if array.length == 1
     converted_string = array.join
   elsif array.length == 2
